@@ -27,7 +27,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a418da82-2069-43b7-9bc0-f1488c69dd71" name="Default Changelist" comment="" />
+    <list default="true" id="a418da82-2069-43b7-9bc0-f1488c69dd71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Shaadi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Shaadi.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/karan/shaadidotcom/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/karan/kisan_network/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/androidx/databinding/DataBinderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/androidx/databinding/DataBinderMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/shaadidotcom/BR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/kisan_network/BR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/shaadidotcom/DataBinderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/kisan_network/DataBinderMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/shaadidotcom/daos/AppDatabase_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/kisan_network/daos/AppDatabase_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/shaadidotcom/daos/ProfileDao_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/karan/kisan_network/daos/ProfileDao_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/karan/shaadidotcom/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/karan/kisan_network/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/SmsApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/SmsApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/database/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/database/AppDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/database/DatabaseHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/database/DatabaseHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/database/MessageTable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/database/MessageTable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/model/Contact.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/model/Contact.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/model/JsonAttributes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/model/JsonAttributes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/model/Message.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/model/Message.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/networking/NetworkHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/networking/NetworkHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/activity/SendMessageActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/activity/SendMessageActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/activity/ShowProfileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/activity/ShowProfileActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/adapter/ContactAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/adapter/ContactAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/adapter/MessageAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/adapter/MessageAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/ContactFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/ContactFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/MessageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/MessageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/SendMessageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/SendMessageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/ShowProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/ShowProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/utils/Extentions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/utils/Extentions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/karan/shaadidotcom/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/karan/kisan_network/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,8 +124,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="Shaadi.app" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ContactApp.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -255,32 +288,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/SendMessageFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/SendMessageFragment.kt</url>
           <line>186</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/SendMessageFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/SendMessageFragment.kt</url>
           <line>196</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/SendMessageFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/SendMessageFragment.kt</url>
           <line>168</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/SendMessageFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/SendMessageFragment.kt</url>
           <line>179</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/SendMessageFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/SendMessageFragment.kt</url>
           <line>181</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/shaadidotcom/ui/fragment/SendMessageFragment.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/karan/kisan_network/ui/fragment/SendMessageFragment.kt</url>
           <line>189</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
