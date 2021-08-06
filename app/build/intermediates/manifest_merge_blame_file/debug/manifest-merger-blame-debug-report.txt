@@ -19,8 +19,8 @@
 13
 14    <application
 14-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:9:5-30:19
-15        android:name="com.karan.shaadidotcom.ShaadiApplication"
-15-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:10:9-64
+15        android:name="com.karan.kisan_network.SmsApplication"
+15-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:10:9-62
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.3.1] /Users/karanchauhan/.gradle/caches/transforms-2/files-2.1/e261d7dc0ed7ea73e5db0aabb015e004/core-1.3.1/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
@@ -36,9 +36,9 @@
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
 24-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:15:9-40
-25        <activity android:name="com.karan.shaadidotcom.ui.activity.MainActivity" >
+25        <activity android:name="com.karan.kisan_network.ui.activity.MainActivity" >
 25-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:18:9-24:20
-25-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:18:19-81
+25-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:18:19-82
 26            <intent-filter>
 26-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:19:13-23:29
 27                <action android:name="android.intent.action.MAIN" />
@@ -50,15 +50,15 @@
 29-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:22:27-74
 30            </intent-filter>
 31        </activity>
-32        <activity android:name="com.karan.shaadidotcom.ui.activity.SendMessageActivity" />
-32-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:25:9-68
-32-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:25:19-66
+32        <activity android:name="com.karan.kisan_network.ui.activity.SendMessageActivity" />
+32-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:25:9-91
+32-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:25:19-89
 33        <activity
-33-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:27:9-28:69
-34            android:name="com.karan.shaadidotcom.ui.activity.ShowProfileActivity"
-34-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:27:19-66
-35            android:parentActivityName="com.karan.shaadidotcom.ui.activity.MainActivity" />
-35-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:28:13-67
+33-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:27:9-28:92
+34            android:name="com.karan.kisan_network.ui.activity.ShowProfileActivity"
+34-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:27:19-89
+35            android:parentActivityName="com.karan.kisan_network.ui.activity.MainActivity" />
+35-->/Users/karanchauhan/StudioProjects/shaadi-demo/app/src/main/AndroidManifest.xml:28:13-90
 36
 37        <service
 37-->[androidx.room:room-runtime:2.2.5] /Users/karanchauhan/.gradle/caches/transforms-2/files-2.1/94f4d53218d21bde987d5db9a211da11/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40

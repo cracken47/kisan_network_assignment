@@ -4,9 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d525f12ce8f2328ccc7136591f616bc/jetified-fresco-2.3.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6cfb96b612d2662550e73740001600e6/jetified-fresco-2.3.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d525f12ce8f2328ccc7136591f616bc/jetified-fresco-2.3.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d525f12ce8f2328ccc7136591f616bc/jetified-fresco-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d525f12ce8f2328ccc7136591f616bc/jetified-fresco-2.3.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d525f12ce8f2328ccc7136591f616bc/jetified-fresco-2.3.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

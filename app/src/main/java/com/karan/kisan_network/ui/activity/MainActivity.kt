@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -51,9 +52,9 @@ class MainActivity :  AppCompatActivity()  {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id: Int = item.getItemId()
+        val id: Int = item.itemId
         return if (id == R.id.action_setting) {
-            // To-do create a setting activity and call it
+            Toast.makeText(this, "Settings can be shown from here", Toast.LENGTH_LONG).show()
             true
         } else super.onOptionsItemSelected(item)
     }

@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.karan.shaadidotcom.ShaadiApplication"
+        android:name="com.karan.kisan_network.SmsApplication"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
@@ -22,17 +22,17 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.karan.shaadidotcom.ui.activity.MainActivity" >
+        <activity android:name="com.karan.kisan_network.ui.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.karan.shaadidotcom.ui.activity.SendMessageActivity" />
+        <activity android:name="com.karan.kisan_network.ui.activity.SendMessageActivity" />
         <activity
-            android:name="com.karan.shaadidotcom.ui.activity.ShowProfileActivity"
-            android:parentActivityName="com.karan.shaadidotcom.ui.activity.MainActivity" />
+            android:name="com.karan.kisan_network.ui.activity.ShowProfileActivity"
+            android:parentActivityName="com.karan.kisan_network.ui.activity.MainActivity" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"

@@ -69,7 +69,7 @@ class SendMessageFragment : Fragment() {
         mInputOtp = view.findViewById<View>(R.id.inputOtp) as TextView
         mSendBtn = view.findViewById<View>(R.id.btn_request_sms) as Button
         val verifyOtpBtn = view.findViewById<View>(R.id.btn_verify_otp) as Button
-        val messageText: EditText = view.findViewById<View>(R.id.input_message) as EditText
+        val messageText: TextView = view.findViewById<View>(R.id.input_message) as TextView
         inputName.text = mContact?.fullName
         inputNumber.text = mContact?.number
         profileImage.setImageDrawable(mContact?.drawable)
@@ -78,9 +78,17 @@ class SendMessageFragment : Fragment() {
         val message: String = getString(R.string.msg_sms) + " " + mOtpCode
         messageText.setText(message)
         mSendBtn!!.setOnClickListener {
-            sendMessage(messageText.text.toString())
-            mProgressBar!!.isVisible = true
-            mSendBtn!!.isEnabled = false
+            if (isNetworkAvailable()) {
+                sendMessage(messageText.text.toString())
+                mProgressBar!!.isVisible = true
+                mSendBtn!!.isVisible = false
+            } else {
+                Toast.makeText(
+                    context,
+                    "Please make sure you are connected to internet",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
         }
         verifyOtpBtn.setOnClickListener { verifyOtp() }
     }
@@ -90,17 +98,8 @@ class SendMessageFragment : Fragment() {
      * @param message [Message] to be sent
      */
     private fun sendMessage(message: String) {
-        if (isNetworkAvailable()) {
-            val handler = OkHttpHandler(activity!!, mContact)
-            handler.execute(message)
-        } else {
-            Toast.makeText(
-                context,
-                "Please make sure you are connected to internet",
-                Toast.LENGTH_LONG
-            ).show()
-
-        }
+        val handler = OkHttpHandler(activity!!, mContact)
+        handler.execute(message)
     }// ran.nextInt(900000) gives a random number between 1 and 900000, that's why we have to add 100000
 
     /**
@@ -200,7 +199,7 @@ class SendMessageFragment : Fragment() {
                 mOtpAuthLayout?.isVisible = true
             } else {
                 mProgressBar?.isVisible = false
-                mSendBtn!!.isEnabled = true
+                mSendBtn!!.isVisible = true
                 Toast.makeText(activity, "Error Occurred", Toast.LENGTH_LONG).show()
             }
         }
@@ -215,7 +214,7 @@ class SendMessageFragment : Fragment() {
         // as there is a chance that someone can decrypt the app and get this information
         // don't consider it for production.
         private const val ACCOUNT_SID = "ACedc0bb58fd076ad9ace6f5da6141500a" // Twilio account sid
-        private const val AUTH_TOKEN = "5903d83bb773f380a9f1687462e38461" // Twilio auth token
+        private const val AUTH_TOKEN = "d968e2231218362bedc002c387da916b" // Twilio auth token
         private var mOtpCode: String? = null
 
         /**
